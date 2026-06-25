@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task4</title>
+</head>
+<body>
+    <h1>Fill your information</h1>
+    <form >
+        <fieldset>
+            <legend>Form</legend>
+            <label>First Name</label><br>
+            <input type="text"> 
+            <br>
+            <label>Last Name</label><br>
+            <input type="text">
+            <br>
+            <label>Email</label><br>
+            <input type="email">
+            <br><br>
+            <legend><strong>Your Gender</strong></legend><br>
+            <input type="radio">Male
+            <input type="radio">Female
+            <br><br><br>
+            <legend><strong>Favorite Subject</strong></legend><br>
+            <input type="checkbox">C++
+            <input type="checkbox">Java
+            <input type="checkbox">C#
+            <input type="checkbox">PHP
+            <input type="checkbox">SQL
+            <br><br>
+            <legend><strong>Your City</strong></legend><br>
+            <label>City: </label>
+            <select>
+                <option value="zarqa">zarqa</option>
+                <option value="irbid">irbid</option>
+                <option value="amman">amman</option>
+            </select><br><br>
+            <label>Upload Image</label>
+            <input type="file" ><br><br>
+            <label>Write about yourself:</label><br><br>
+            <textarea >write here</textarea>
+        </fieldset>
+    </form>
+    <br><br><br><br>
+    
+
+    <!-- use table for allignment the fields -->
+    <form>
+  <table>
+    <tr>
+      <td><label for="name">Name:</label></td>
+      <td><input type="text" id="name" name="name"></td>
+    </tr>
+    <tr>
+      <td><label for="address">Address:</label></td>
+      <td><input type="text" id="address" name="address"></td>
+    </tr>
+    <tr>
+      <td><label for="city">City:</label></td>
+      <td><input type="text" id="city" name="city"></td>
+    </tr>
+    <tr>
+      <td><label for="state">State:</label></td>
+      <td><input type="text" id="state" name="state"></td>
+    </tr>
+    <tr>
+      <td><label for="zip">Zip:</label></td>
+      <td><input type="text" id="zip" name="zip"></td>
+    </tr>
+    <tr>
+      <td><label for="magazine">Magazine:</label></td>
+      <td>
+        <select id="magazine" name="magazine">
+          <option value="newsweek">Newsweek</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td><label>Subscription:</label></td>
+      <td>
+        <input type="radio" id="1year" name="subscription" value="1year" checked>
+        <label for="1year">1 year</label>
+        
+        <input type="radio" id="2years" name="subscription" value="2years">
+        <label for="2years">2 years</label>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <button type="submit">Send Your Order</button>
+      </td>
+    </tr>
+  </table>
+</form>
+    
+</body>
+</html>
